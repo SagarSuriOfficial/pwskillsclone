@@ -14,6 +14,10 @@
   margin: 2rem;
 }
 
+.m-2 {
+  margin: 0.5rem;
+}
+
 .mx-\[10px\] {
   margin-left: 10px;
   margin-right: 10px;
@@ -93,6 +97,14 @@
   height: 2.5rem;
 }
 
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[50px\] {
+  height: 50px;
+}
+
 .w-20 {
   width: 5rem;
 }
@@ -133,6 +145,14 @@
   width: 2.5rem;
 }
 
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[50px\] {
+  width: 50px;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -153,6 +173,10 @@
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -163,6 +187,22 @@
 
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.self-center {
+  align-self: center;
 }
 
 .rounded {
@@ -179,6 +219,10 @@
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border-2 {
@@ -905,12 +949,20 @@ video {
     height: 80px;
   }
 
+  .md\:h-\[70px\] {
+    height: 70px;
+  }
+
   .md\:w-\[100px\] {
     width: 100px;
   }
 
   .md\:w-\[80px\] {
     width: 80px;
+  }
+
+  .md\:w-\[70px\] {
+    width: 70px;
   }
 
   .md\:flex-row {
